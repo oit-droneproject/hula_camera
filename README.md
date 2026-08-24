@@ -4,11 +4,11 @@
 
 #### single_fly_Anticipatory_recognition(qr_id)
 
-前方カメラでQRコードを認識	
+前方カメラでARマーカーを認識	
 
 qr_id: QR ID [0-9]	{ result, x, y, z, yaw, qr_id }。x/y/zはドローンとQR間の距離、yawは角度、qr_idは認識したQRのID
 
-#### camera_test.py
+#### AR_test.py
 ```python
 import pyhula
 import time
