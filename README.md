@@ -21,8 +21,6 @@ else:
 
 print(f"battery={api.get_battery()}")
 
-time.sleep(6)  # SPS/PPSが届くまで待つ
-
 print("映像取得開始...")
 
 while True:
