@@ -1,6 +1,6 @@
 # Hulaカメラ
 
-## 前方カメラ
+## 画像取得
 
 
 ### 
@@ -26,7 +26,7 @@ time.sleep(3)  # SPS/PPSが届くまで待つ
 while True:
     time.sleep(0.1) 
 ```
-
+## AR認識
 
 #### single_fly_Anticipatory_recognition(qr_id)
 
