@@ -12,7 +12,6 @@ qr_id: QR ID [0-9]	{ result, x, y, z, yaw, qr_id }。x/y/zはドローンとQR�
 ```python
 import pyhula
 import time
-import cv2
 
 api = pyhula.UserApi()
 if not api.connect():
@@ -21,11 +20,6 @@ else:
     print("connection to station by wifi")
 
 print(f"battery={api.get_battery()}")
-
-# ストリーム有効化（この順番が重要）
-api.Plane_cmd_swith_rtp(0)
-api.single_fly_flip_rtp()  # これが必要
-
 
 time.sleep(6)  # SPS/PPSが届くまで待つ
 
