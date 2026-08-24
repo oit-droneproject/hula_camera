@@ -2,6 +2,32 @@
 
 ## 前方カメラ
 
+
+### 
+
+```python
+import pyhula
+import time
+
+api = pyhula.UserApi()
+if not api.connect():
+    print("connect error")
+else:
+    print("connection to station by wifi")
+
+print(f"battery={api.get_battery()}")
+
+# ストリーム有効化
+api.Plane_cmd_swith_rtp(0)
+api.single_fly_flip_rtp()  
+
+time.sleep(3)  # SPS/PPSが届くまで待つ
+
+while True:
+    time.sleep(0.1) 
+```
+
+
 #### single_fly_Anticipatory_recognition(qr_id)
 
 前方カメラでARマーカーを認識	
