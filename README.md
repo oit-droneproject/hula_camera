@@ -28,6 +28,7 @@ while True:
     print(arry)
 ```
 #### 実施例
+Ctr-Cでコードを止めることが可能です。
 ```bash
 connect wifi
 192.168.100.255 192.168.100.125
@@ -36,4 +37,5 @@ battery=59
 {'mode': 0, 'type': 2, 'x': 28, 'y': 82, 'z': 10, 'angle': 1925, 'result': True}
 {'mode': 0, 'type': 2, 'x': 28, 'y': 82, 'z': 10, 'angle': 1925, 'result': True}
 {'mode': 0, 'type': 2, 'x': 28, 'y': 82, 'z': 10, 'angle': 1925, 'result': True}
+....
 ```
