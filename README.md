@@ -102,3 +102,14 @@ while True:
     arry=api.single_fly_getColor()
     print(arry)
 ```
+
+
+```bash
+connect wifi
+192.168.100.255 192.168.100.125
+connection to station by wifi
+battery=42
+{'r': 128, 'g': 144, 'b': 176, 'state': True}
+{'r': 128, 'g': 144, 'b': 176, 'state': True}
+{'r': 128, 'g': 144, 'b': 176, 'state': True}
+```
