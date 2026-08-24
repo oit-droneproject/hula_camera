@@ -132,7 +132,3 @@ battery=42
 
 ---
 
-## 参考
-
-- pyhula Python API リファレンス（日本語）: https://redcliff-inc.co.jp/downloads/hula/Hula_Python_API_pyhula118_JA.pdf
-- リポジトリ: https://github.com/oit-droneproject/hula_control
