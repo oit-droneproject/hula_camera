@@ -27,3 +27,13 @@ while True:
     arry=api.single_fly_Anticipatory_recognition(0)
     print(arry)
 ```
+#### 実施例
+```bash
+connect wifi
+192.168.100.255 192.168.100.125
+connection to station by wifi
+battery=59
+{'mode': 0, 'type': 2, 'x': 28, 'y': 82, 'z': 10, 'angle': 1925, 'result': True}
+{'mode': 0, 'type': 2, 'x': 28, 'y': 82, 'z': 10, 'angle': 1925, 'result': True}
+{'mode': 0, 'type': 2, 'x': 28, 'y': 82, 'z': 10, 'angle': 1925, 'result': True}
+```
