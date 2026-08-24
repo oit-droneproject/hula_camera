@@ -37,6 +37,9 @@ time.sleep(3)  # SPS/PPSが届くまで待つ
 while True:
     time.sleep(0.1) 
 ```
+
+---
+
 ## AR認識
 
 #### single_fly_Anticipatory_recognition(qr_id)
@@ -78,6 +81,7 @@ battery=59
 ....
 ```
 
+---
 
 ### hula_camera03.py
 ```
