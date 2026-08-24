@@ -6,7 +6,7 @@
 
 前方カメラでARマーカーを認識	
 
-qr_id: QR ID [0-9]	{ result, x, y, z, yaw, qr_id }。x/y/zはドローンとQR間の距離、yawは角度、qr_idは認識したQRのID
+AR(QR)_id: QR ID [0-9]	{ result, x, y, z, yaw, qr_id }。x/y/zはドローンとQR間の距離、yawは角度、qr_idは認識したAR(QR)のID
 
 #### AR_test.py
 ```python
