@@ -214,3 +214,39 @@ battery=42
 
 ---
 
+## 旋回動作を用いたマーカー探索
+
+ID:0のマーカーが見るまで旋回するコードです。
+
+```python
+import pyhula
+import time
+
+api = pyhula.UserApi()
+if not api.connect():
+    print("connect error")
+else:
+    print("connection to station by wifi")
+print(f"battery={api.get_battery()}")
+
+# ストリーム有効化（この順番が重要）
+api.Plane_cmd_swith_rtp(0)
+api.single_fly_flip_rtp()  
+
+time.sleep(3)  # SPS/PPSが届くまで待つ
+
+api.single_fly_takeoff()
+
+print("映像取得開始...")
+while True:
+    api.single_fly_turnleft(10)
+    arry = api.single_fly_Anticipatory_recognition(0)
+    print(arry['result'])
+    if arry['result']:
+        print("マーカーを発見しました")
+        break
+
+api.single_fly_touchdown()
+```
+
+見るまでに時間的なずれがあることを確認してみてください。
