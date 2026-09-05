@@ -37,6 +37,8 @@ while True:
     time.sleep(0.1)
 ```
 
+### hula_camera02.py
+カメラを真下に向けるのことも可能です。
 ```python
 import pyhula
 import time
