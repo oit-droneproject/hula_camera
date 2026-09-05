@@ -39,6 +39,8 @@ while True:
 
 `Ctrl-C` でコードを止めることが可能です。
 
+---
+
 ## カメラの向き
 
 カメラを真下に向けるのことも可能です。
@@ -120,9 +122,10 @@ battery=59
 <img src="./image/camera2.jpg" alt="alt text" width="600">
 
 
-### hula_camera04.py
+## 映像とマーカー
 
 映像を取得しながらマーカーを認識することも可能です。
+### hula_camera04.py
 
 ```python
 import pyhula
