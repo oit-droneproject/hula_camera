@@ -88,6 +88,45 @@ battery=59
 
 <img src="./image/camera2.jpg" alt="alt text" width="600">
 
+
+### hula_camera03.py
+
+```python
+import pyhula
+import time
+
+api = pyhula.UserApi()
+if not api.connect():
+    print("connect error")
+else:
+    print("connection to station by wifi")
+print(f"battery={api.get_battery()}")
+
+# ストリーム有効化（この順番が重要）
+api.Plane_cmd_swith_rtp(0)
+api.single_fly_flip_rtp()  # これが必要
+
+
+time.sleep(3)  # SPS/PPSが届くまで待つ
+
+print("映像取得開始...")
+while True:
+    arry = api.single_fly_Anticipatory_recognition(0)
+    print(arry)
+```
+
+```bash
+connect wifi
+192.168.100.255 192.168.100.125
+connection to station by wifi
+battery=59
+{'mode': 0, 'type': 2, 'x': 28, 'y': 82, 'z': 10, 'angle': 1925, 'result': True}
+{'mode': 0, 'type': 2, 'x': 28, 'y': 82, 'z': 10, 'angle': 1925, 'result': True}
+{'mode': 0, 'type': 2, 'x': 28, 'y': 82, 'z': 10, 'angle': 1925, 'result': True}
+....
+
+
+
 ---
 
 ## 色認識
