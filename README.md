@@ -189,9 +189,9 @@ else:
     print("connection to station by wifi")
 print(f"battery={api.get_battery()}")
 
-# ストリーム有効化（この順番が重要）
+# コメントアウトを外せば映像を映すことも可能
 # api.Plane_cmd_swith_rtp(0)
-# api.single_fly_flip_rtp()  # これが必要
+# api.single_fly_flip_rtp()  
 time.sleep(3)  # SPS/PPSが届くまで待つ
 
 # print("映像取得開始...")
