@@ -37,6 +37,9 @@ while True:
     time.sleep(0.1)
 ```
 
+`Ctrl-C` でコードを止めることが可能です。
+
+
 ### hula_camera02.py
 カメラを真下に向けるのことも可能です。
 ```python
@@ -60,6 +63,8 @@ api.Plane_cmd_camera_angle(1, 90)
 while True:
     time.sleep(0.1)
 ```
+
+`Ctrl-C` でコードを止めることが可能です。
 
 ---
 
