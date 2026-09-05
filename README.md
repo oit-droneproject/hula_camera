@@ -83,8 +83,6 @@ battery=59
 ```
 ### ドローンとマーカー
 
-<img src="./image/camera1.png" alt="alt text" width="600">
-
 <img src="./image/camera2.jpg" alt="alt text" width="600">
 
 
@@ -116,6 +114,8 @@ while True:
     print(arry)
 ```
 
+### 実行結果
+
 ```bash
 connect wifi
 192.168.100.255 192.168.100.125
@@ -126,6 +126,9 @@ battery=59
 {'mode': 0, 'type': 2, 'x': 28, 'y': 82, 'z': 10, 'angle': 1925, 'result': True}
 {'mode': 0, 'type': 2, 'x': 28, 'y': 82, 'z': 10, 'angle': 1925, 'result': True}
 ```
+### カメラ映像
+
+<img src="./image/camera1.png" alt="alt text" width="600">
 
 ....
 
