@@ -90,6 +90,8 @@ battery=59
 
 ### hula_camera03.py
 
+映像を取得しながらマーカーを認識することも可能です。
+
 ```python
 import pyhula
 import time
@@ -119,6 +121,7 @@ connect wifi
 192.168.100.255 192.168.100.125
 connection to station by wifi
 battery=59
+映像取得開始...
 {'mode': 0, 'type': 2, 'x': 28, 'y': 82, 'z': 10, 'angle': 1925, 'result': True}
 {'mode': 0, 'type': 2, 'x': 28, 'y': 82, 'z': 10, 'angle': 1925, 'result': True}
 {'mode': 0, 'type': 2, 'x': 28, 'y': 82, 'z': 10, 'angle': 1925, 'result': True}
