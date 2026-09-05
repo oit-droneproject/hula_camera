@@ -84,9 +84,9 @@ battery=59
 ```
 ### ドローンとマーカー
 
-<img src="./image/camera1.png" alt="alt text" width="1200">
+<img src="./image/camera1.png" alt="alt text" width="600">
 
-<img src="./image/camera2.jpg" alt="alt text" width="1200">
+<img src="./image/camera2.jpg" alt="alt text" width="600">
 ---
 
 ## 色認識
