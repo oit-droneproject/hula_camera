@@ -130,7 +130,7 @@ battery=59
 
 <img src="./image/camera1.png" alt="alt text" width="600">
 
-....
+
 
 
 
