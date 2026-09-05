@@ -83,11 +83,11 @@ battery=59
 ....
 ```
 ### ドローンとマーカー
-![代替テキスト](./image/camera2.jpg)
+
 
 ![代替テキスト](./image/camera1.png)
 
-
+![代替テキスト](./image/camera2.jpg)
 ---
 
 ## 色認識
