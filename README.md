@@ -138,7 +138,7 @@ battery=59
 | --- | --- | --- |
 | `single_fly_getColor()` | なし | 現在の映像フレームから色を取得する。戻り値は辞書 `{ r, g, b, state }`。`r`/`g`/`b` はRGB値、`state` は取得成否（`True`:成功、`False`:失敗） |
 
-### hula_camera03.py
+### hula_camera04.py
 
 ```python
 import pyhula
