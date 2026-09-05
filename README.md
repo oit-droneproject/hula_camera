@@ -78,7 +78,7 @@ while True:
 
 参考：数字・矢印・アルファベットのタグを認識したい場合は `single_fly_AiIdentifies(mode)`（`mode` 0〜9:数字 / 10〜13:矢印 / 65〜90:A〜Z）も利用できます。
 
-### hula_camera02.py
+### hula_camera03.py
 
 ```python
 import pyhula
@@ -117,7 +117,7 @@ battery=59
 <img src="./image/camera2.jpg" alt="alt text" width="600">
 
 
-### hula_camera03.py
+### hula_camera04.py
 
 映像を取得しながらマーカーを認識することも可能です。
 
@@ -175,7 +175,7 @@ battery=59
 | --- | --- | --- |
 | `single_fly_getColor()` | なし | 現在の映像フレームから色を取得する。戻り値は辞書 `{ r, g, b, state }`。`r`/`g`/`b` はRGB値、`state` は取得成否（`True`:成功、`False`:失敗） |
 
-### hula_camera04.py
+### hula_camera05.py
 
 ```python
 import pyhula
