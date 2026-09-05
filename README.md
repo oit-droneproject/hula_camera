@@ -98,7 +98,6 @@ while True:
 
 ### 実施例
 
-`Ctrl-C` でコードを止めることが可能です。
 
 ```bash
 connect wifi
@@ -109,6 +108,9 @@ battery=59
 {'mode': 0, 'type': 2, 'x': 28, 'y': 82, 'z': 10, 'angle': 1925, 'result': True}
 {'mode': 0, 'type': 2, 'x': 28, 'y': 82, 'z': 10, 'angle': 1925, 'result': True}
 ....
+
+`Ctrl-C` でコードを止めることが可能です。
+
 ```
 ### ドローンとマーカー
 
