@@ -39,9 +39,12 @@ while True:
 
 `Ctrl-C` でコードを止めることが可能です。
 
+## カメラの向き
+
+カメラを真下に向けるのことも可能です。
 
 ### hula_camera02.py
-カメラを真下に向けるのことも可能です。
+
 ```python
 import pyhula
 import time
@@ -96,7 +99,7 @@ while True:
     print(arry)
 ```
 
-### 実施例
+### 実行例
 
 
 ```bash
@@ -145,7 +148,7 @@ while True:
     print(arry)
 ```
 
-### 実行結果
+### 実行例
 
 ```bash
 connect wifi
@@ -200,7 +203,7 @@ while True:
     print(arry)
 ```
 
-### 実行結果
+### 実行例
 実行例は赤色の紙を前においたものです。用紙や環境によって値は大きくかわります。
 ```bash
 connect wifi
@@ -252,7 +255,7 @@ api.single_fly_touchdown()
 
 
 
-### 実行結果
+### 実行例
 ```
 connect wifi
 192.168.100.255 192.168.100.125
