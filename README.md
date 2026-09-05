@@ -37,6 +37,28 @@ while True:
     time.sleep(0.1)
 ```
 
+```python
+import pyhula
+import time
+
+api = pyhula.UserApi()
+if not api.connect():
+    print("connect error")
+else:
+    print("connection to station by wifi")
+print(f"battery={api.get_battery()}")
+
+# ストリーム有効化
+api.Plane_cmd_swith_rtp(0)
+api.single_fly_flip_rtp()
+time.sleep(3)  # SPS/PPSが届くまで待つ
+
+print("映像取得開始...")
+api.Plane_cmd_camera_angle(1, 90)
+while True:
+    time.sleep(0.1)
+```
+
 ---
 
 ## ARマーカー認識
