@@ -250,3 +250,24 @@ api.single_fly_touchdown()
 ```
 
 見るまでに時間的なずれがあることを確認してみてください。
+
+
+```
+connect wifi
+192.168.100.255 192.168.100.125
+connection to station by wifi
+battery=48
+takeoff success
+映像取得開始...
+False
+SFTurnLeftTP finish
+False
+SFTurnLeftTP finish
+False
+SFTurnLeftTP finish
+False
+SFTurnLeftTP finish
+True
+マーカーを発見しました
+Touchdown not finish
+```
