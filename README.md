@@ -99,8 +99,8 @@ else:
 print(f"battery={api.get_battery()}")
 
 while True:
-    arry = api.single_fly_Anticipatory_recognition(0)
-    print(arry)
+    array = api.single_fly_Anticipatory_recognition(0)
+    print(array)
 ```
 
 ### 実行例
@@ -154,8 +154,8 @@ time.sleep(3)  # SPS/PPSが届くまで待つ
 
 print("映像取得開始...")
 while True:
-    arry = api.single_fly_Anticipatory_recognition(0)
-    print(arry)
+    array = api.single_fly_Anticipatory_recognition(0)
+    print(array)
 ```
 
 ### 実行例
@@ -209,8 +209,8 @@ time.sleep(3)  # SPS/PPSが届くまで待つ
 
 # print("映像取得開始...")
 while True:
-    arry = api.single_fly_getColor()
-    print(arry)
+    array = api.single_fly_getColor()
+    print(array)
 ```
 
 ### 実行例
@@ -254,9 +254,9 @@ api.single_fly_takeoff()
 print("映像取得開始...")
 while True:
     api.single_fly_turnleft(10)
-    arry = api.single_fly_Anticipatory_recognition(0)
-    print(arry['result'])
-    if arry['result']:
+    array = api.single_fly_Anticipatory_recognition(0)
+    print(array['result'])
+    if array['result']:
         print("マーカーを発見しました")
         break
 
